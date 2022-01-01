@@ -8,10 +8,6 @@
   scroll-behavior: smooth;
 }
 
-body {
-  height: 5000px;
-}
-
 /* Start Header */
 header {
   background-color: #f0f0f0;
@@ -190,4 +186,173 @@ main .info .social-icons a {
 }
 
 /* End Services */
+/* Start Project */
+.projects {
+  padding: 100px 200px;
+  background-color: #000016;
+}
+
+.projects h2 {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #3a6cf4;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.projects .contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projects .contents .project-card {
+  background-color: #fff;
+  border: 1px solid #000;
+  min-height: 14em;
+  width: 15em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+.projects .contents .project-card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.projects .contents .project-card .pro-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.projects .contents .project-card .pro-img:hover {
+  opacity: 0.6;
+}
+
+.projects .contents .project-card p {
+  padding: 5px;
+  font-size: 0.8em;
+}
+
+.projects .contents .project-card .info {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.projects .contents .project-card .info a {
+  text-decoration: none;
+  color: #3a6cf4;
+}
+
+.projects .contents .project-card .info a:hover {
+  color: #601cfc;
+}
+
+/* End Project */
+/* Start Contact */
+.contact {
+  text-align: center;
+  padding: 100px 200px;
+}
+
+.contact h2 {
+  color: #3a6cf4;
+  font-size: 2.2em;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.contact .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact .content .con {
+  padding: 30px 10px;
+  width: 23em;
+  background-color: #fff;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0 5px 25px rgba(17, 17, 17, 0.15);
+          box-shadow: 0 5px 25px rgba(17, 17, 17, 0.15);
+  margin: 20px;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+.contact .content .con:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.contact .content .con i {
+  color: #3a6cf4;
+  font-size: 3em;
+}
+
+.contact .content .con h4 {
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+.contact .content .con p {
+  font-size: 1.2em;
+}
+
+/* End Contact */
+/* Start Footer */
+footer {
+  background-color: #000016;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 30px;
+}
+
+footer p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+footer p span {
+  color: #3a6cf4;
+}
+
+footer .social-icons a {
+  font-size: 1.3em;
+  padding-left: 10px;
+}
+
+/* End Footer */
 /*# sourceMappingURL=app.css.map */
